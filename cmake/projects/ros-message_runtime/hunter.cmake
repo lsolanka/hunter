@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    message_runtime
+    ros-message_runtime
     VERSION
-    devel
+    0.4.12-p1
     URL
-    "https://github.com/lsolanka/message_runtime/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/message_runtime/archive/0.4.12-p1.tar.gz"
     SHA1
-    57a622982a7fe9709478d0c2335eefa0b3aa9649
+    c078a5a37dc104a5dce0ec51eaedcabc2f23cdb3
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(message_runtime)
-hunter_download(PACKAGE_NAME message_runtime)
+hunter_cacheable(ros-message_runtime)
+hunter_download(PACKAGE_NAME ros-message_runtime)
 

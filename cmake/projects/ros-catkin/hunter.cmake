@@ -12,6 +12,17 @@ hunter_add_version(
     PACKAGE_NAME
     ros-catkin
     VERSION
+    0.7.8-p2
+    URL
+    "https://github.com/lsolanka/catkin/archive/0.7.8-p2.tar.gz"
+    SHA1
+    457e5ce3ea224e5c7e2b57f29026c4b6e1382eab
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    ros-catkin
+    VERSION
     0.7.8-p1
     URL
     "https://github.com/lsolanka/catkin/archive/0.7.8-p1.tar.gz"
