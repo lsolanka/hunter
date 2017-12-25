@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    genpy
+    ros-genpy
     VERSION
-    devel
+    0.6.7-p1
     URL
-    "https://github.com/lsolanka/genpy/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/genpy/archive/0.6.7-p1.tar.gz"
     SHA1
-    d3e52cd4c8fd0fd84e37f1153d59cac85feff7e7
+    683e84a484c7e7f72efa1a198def7783f27020e4
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(genpy)
-hunter_download(PACKAGE_NAME genpy)
+hunter_cacheable(ros-genpy)
+hunter_download(PACKAGE_NAME ros-genpy)
 
