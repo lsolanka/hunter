@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    genlisp
+    ros-genlisp
     VERSION
-    devel
+    0.4.16-p1
     URL
-    "https://github.com/lsolanka/genlisp/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/genlisp/archive/0.4.16-p1.tar.gz"
     SHA1
-    1fccd52c56b6c4cffbf1457d961c3259982fa42c
+    0997768f437013caa9b9e792edb83fe141595170
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(genlisp)
-hunter_download(PACKAGE_NAME genlisp)
+hunter_cacheable(ros-genlisp)
+hunter_download(PACKAGE_NAME ros-genlisp)
 
