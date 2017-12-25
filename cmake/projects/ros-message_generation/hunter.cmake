@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    message_generation
+    ros-message_generation
     VERSION
-    devel
+    0.4.0-p1
     URL
-    "https://github.com/lsolanka/message_generation/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/message_generation/archive/0.4.0-p1.tar.gz"
     SHA1
-    72651650d2307146cd3136c1c61a7217d916c9f4
+    15028b806a3aa1c5e435c7bc9bf1bf9e65d25c79
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(message_generation)
-hunter_download(PACKAGE_NAME message_generation)
+hunter_cacheable(ros-message_generation)
+hunter_download(PACKAGE_NAME ros-message_generation)
 
