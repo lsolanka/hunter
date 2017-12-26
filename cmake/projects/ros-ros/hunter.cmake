@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    ros
+    ros-ros
     VERSION
-    devel
+    1.13.6-p1
     URL
-    "https://github.com/lsolanka/ros/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/ros/archive/1.13.6-p1.tar.gz"
     SHA1
-    c4b8abd15dc04d5db19635f3725f0f126d8a43eb
+    620a29a517d556862a60021f32a13af0bc0993b9
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(ros)
-hunter_download(PACKAGE_NAME ros)
+hunter_cacheable(ros-ros)
+hunter_download(PACKAGE_NAME ros-ros)
 
