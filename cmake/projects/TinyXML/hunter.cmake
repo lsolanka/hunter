@@ -12,11 +12,11 @@ hunter_add_version(
     PACKAGE_NAME
     TinyXML
     VERSION
-    devel
+    2.6.2-p1
     URL
-    "https://github.com/lsolanka/TinyXML/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/TinyXML/archive/2.6.2-p1.tar.gz"
     SHA1
-    a48b89a76026c87e1455c5a29d9d19fc7d4e5a5a
+    2a4d8da48f3976a215de0b7f0ad38aa9c0bd5bc6
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)

@@ -372,6 +372,7 @@ hunter_config(cpp_redis VERSION 3.5.0-h1)
 hunter_config(IF97 VERSION 2.1.2)
 
 # ROS bare bones
+hunter_config(TinyXML VERSION 2.6.2-p1)
 hunter_config(ros-catkin VERSION 0.7.8-p2)
 hunter_config(ros-console_bridge VERSION 0.4.0-p1)
 hunter_config(ros-roscpp_core VERSION 0.6.7-p1)
@@ -385,7 +386,6 @@ hunter_config(ros-message_generation VERSION 0.4.0-p1)
 hunter_config(ros-message_runtime VERSION 0.4.12-p1)
 hunter_config(ros-std_msgs VERSION 0.5.11-p2)
 
-hunter_config(TinyXML VERSION devel)
 hunter_config(ros-cmake_modules VERSION devel)
 hunter_config(rospack VERSION devel)
 hunter_config(ros VERSION devel)
