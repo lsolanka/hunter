@@ -374,7 +374,7 @@ hunter_config(IF97 VERSION 2.1.2)
 # ROS bare bones
 hunter_config(TinyXML VERSION 2.6.2-p1)
 hunter_config(ros-catkin VERSION 0.7.8-p2)
-hunter_config(ros-console_bridge VERSION 0.4.0-p1)
+hunter_config(ros-console_bridge VERSION 0.3.2-p2)
 hunter_config(ros-roscpp_core VERSION 0.6.7-p1)
 hunter_config(ros-genmsg VERSION 0.5.9-p1)
 hunter_config(ros-gencpp VERSION 0.5.5-p1)

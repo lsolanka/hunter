@@ -12,6 +12,17 @@ hunter_add_version(
     PACKAGE_NAME
     ros-console_bridge
     VERSION
+    0.3.2-p2
+    URL
+    "https://github.com/lsolanka/console_bridge/archive/0.3.2-p2.tar.gz"
+    SHA1
+    ca4ef5e467e06dc9371155cb74ce0bb9088ed122
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    ros-console_bridge
+    VERSION
     0.4.0-p1
     URL
     "https://github.com/lsolanka/console_bridge/archive/0.4.0-p1.tar.gz"
