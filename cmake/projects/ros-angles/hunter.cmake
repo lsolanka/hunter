@@ -12,11 +12,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros-angles
     VERSION
-    devel
+    1.9.11-p1
     URL
-    "https://github.com/lsolanka/angles/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/angles/archive/1.9.11-p1.tar.gz"
     SHA1
-    94a5700a62a50a8740d096af4816735b106c8c3e
+    f892ffc20f2adcd0d4fc8441f2a5225b02623fcb
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
