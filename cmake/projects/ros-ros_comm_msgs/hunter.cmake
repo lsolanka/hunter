@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    ros_comm_msgs
+    ros-ros_comm_msgs
     VERSION
-    devel
+    1.11.2-p1
     URL
-    "https://github.com/lsolanka/ros_comm_msgs/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/ros_comm_msgs/archive/1.11.2-p1.tar.gz"
     SHA1
-    ea659c7472acd756999a7e259279d4e4d39eba60
+    e0830fa1001b335fe3eaac5c13a4b3900e232ccb
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(ros_comm_msgs)
-hunter_download(PACKAGE_NAME ros_comm_msgs)
+hunter_cacheable(ros-ros_comm_msgs)
+hunter_download(PACKAGE_NAME ros-ros_comm_msgs)
 
