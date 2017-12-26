@@ -12,11 +12,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros-geometry2
     VERSION
-    devel
+    0.5.16-p1
     URL
-    "https://github.com/lsolanka/geometry2/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/geometry2/archive/0.5.16-p1.tar.gz"
     SHA1
-    930cb1b34c84ffdd6bb8f9b94de1c6446b46602a
+    a2a1189d30565942f2cb2d4240c39087ab17aab0
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)

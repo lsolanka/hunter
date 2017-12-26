@@ -391,7 +391,7 @@ hunter_config(ros-common_msgs VERSION 1.12.5-p1)
 hunter_config(ros-ros VERSION 1.13.6-p1)
 hunter_config(ros-ros_comm VERSION 1.12.2-p1)
 hunter_config(ros-actionlib VERSION 1.11.11-p1)
+hunter_config(ros-geometry2 VERSION 0.5.16-p1)
 
 hunter_config(ros-angles VERSION devel)
-hunter_config(ros-geometry2 VERSION devel)
 #hunter_config(ros-cmake_modules VERSION devel)
