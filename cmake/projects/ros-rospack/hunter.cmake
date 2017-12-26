@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    rospack
+    ros-rospack
     VERSION
-    devel
+    2.4.4-p1
     URL
-    "https://github.com/lsolanka/rospack/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/rospack/archive/2.4.4-p1.tar.gz"
     SHA1
-    9bf2b27aa48406499aee52f1d9ea3d4baa5f4948
+    8af5ed1de99778d7af76550a3eaaef650f3591b7
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(rospack)
-hunter_download(PACKAGE_NAME rospack)
+hunter_cacheable(ros-rospack)
+hunter_download(PACKAGE_NAME ros-rospack)
 
