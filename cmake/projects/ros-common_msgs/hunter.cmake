@@ -10,16 +10,16 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    common_msgs
+    ros-common_msgs
     VERSION
-    devel
+    1.12.5-p1
     URL
-    "https://github.com/lsolanka/common_msgs/archive/hunterise.tar.gz"
+    "https://github.com/lsolanka/common_msgs/archive/1.12.5-p1.tar.gz"
     SHA1
-    302c158c0389c6bc3891fc99344bcb317d224d93
+    443f0b51b26cf0deb1d79d80df4764d93ce49549
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(common_msgs)
-hunter_download(PACKAGE_NAME common_msgs)
+hunter_cacheable(ros-common_msgs)
+hunter_download(PACKAGE_NAME ros-common_msgs)
 
