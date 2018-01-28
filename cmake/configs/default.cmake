@@ -394,4 +394,5 @@ hunter_config(ros-actionlib VERSION 1.11.11-p1)
 hunter_config(ros-geometry2 VERSION 0.5.16-p1)
 hunter_config(ros-angles VERSION 1.9.11-p1)
 
-#hunter_config(ros-cmake_modules VERSION devel)
+# a4wd2 project suite
+hunter_config(roboclaw VERSION 0.1.0-rc3)
