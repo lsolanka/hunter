@@ -12,6 +12,17 @@ hunter_add_version(
     PACKAGE_NAME
     ros-rospack
     VERSION
+    2.4.4-p2
+    URL
+    "https://github.com/lsolanka/rospack/archive/2.4.4-p2.tar.gz"
+    SHA1
+    "429fc7a56997c52570b16c5bcc19f2d4e1354811"
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    ros-rospack
+    VERSION
     2.4.4-p1
     URL
     "https://github.com/lsolanka/rospack/archive/2.4.4-p1.tar.gz"
