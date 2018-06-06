@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros_environment
     VERSION
-    1.2.0-devel0
+    1.2.0-p0
     URL
-    "https://github.com/lsolanka/ros_environment/archive/hunter-1.2.0-devel0.tar.gz"
+    "https://github.com/hunter-packages/ros_environment/archive/v1.2.0-p0.tar.gz"
     SHA1
-    "6a2a26e5176689540d908f9c075b4e70ea2247ea"
+    "01068d113b6517496027a01ca91c85030ae8638f"
 )
 
 hunter_cmake_args(

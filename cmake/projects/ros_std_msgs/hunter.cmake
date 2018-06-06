@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros_std_msgs
     VERSION
-    0.5.11-devel0
+    0.5.11-p1
     URL
-    "https://github.com/lsolanka/std_msgs/archive/hunter-0.5.11-devel0.tar.gz"
+    "https://github.com/hunter-packages/ros_std_msgs/archive/v0.5.11-p1.tar.gz"
     SHA1
-    "7e05b91713c15f934c395f1b5e1233973f223f11"
+    "04ad9f0e155b27870c7ad2293ace496523f2e960"
 )
 
 hunter_cmake_args(

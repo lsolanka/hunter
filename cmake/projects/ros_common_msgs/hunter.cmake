@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros_common_msgs
     VERSION
-    1.12.6-devel0
+    1.12.6-p0
     URL
-    "https://github.com/lsolanka/common_msgs/archive/hunter-1.12.6-devel0.tar.gz"
+    "https://github.com/hunter-packages/ros_common_msgs/archive/v1.12.6-p0.tar.gz"
     SHA1
-    "2f297830b68a901e63259697bcb325ec76f27ad2"
+    "9ebf01d2b3e146121c42314acb9629e2322737ae"
 )
 
 hunter_cmake_args(
