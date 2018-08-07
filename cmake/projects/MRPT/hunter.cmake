@@ -13,6 +13,17 @@ hunter_add_version(
     PACKAGE_NAME
     MRPT
     VERSION
+    hunter-master-3
+    URL
+    "https://github.com/lsolanka/mrpt/archive/hunter-master-3.tar.gz"
+    SHA1
+    "bc4405b6522fa9a16877f226a225c9ec5183b5af"
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    MRPT
+    VERSION
     hunter-master-1
     URL
     "https://github.com/lsolanka/mrpt/archive/hunter-master-1.tar.gz"
@@ -28,7 +39,7 @@ hunter_cmake_args(
         DISABLE_PYTHON_BINDINGS=ON
         EIGEN_USE_EMBEDDED_VERSION=OFF
         DISABLE_VTK=ON
-        DISABLE_OPENGL=ON
+        DISABLE_OPENGL=OFF
         DISABLE_PCL=ON
         USE_QT=OFF 
 )
