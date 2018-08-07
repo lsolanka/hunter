@@ -13,6 +13,17 @@ hunter_add_version(
     PACKAGE_NAME
     CVD
     VERSION
+    hunter-master-2
+    URL
+    "https://github.com/lsolanka/libcvd/archive/hunter-master-2.tar.gz"
+    SHA1
+    "742c0ac8f98b4cfb246793c4040d2f4dca6ae3af"
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    CVD
+    VERSION
     hunter-master-1
     URL
     "https://github.com/lsolanka/libcvd/archive/hunter-master-1.tar.gz"
