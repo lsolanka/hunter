@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros_tf2
     VERSION
-    0.6.2-devel0
+    0.6.2-devel1
     URL
-    "https://github.com/lsolanka/geometry2/archive/hunter-0.6.2-devel0.tar.gz"
+    "https://github.com/lsolanka/geometry2/archive/hunter-0.6.2-devel1.tar.gz"
     SHA1
-    "1578e4ceb1bdfe71a6249ff0e952dff9732499c7"
+    "a20de17f2b57ae93dba9493c90db77c14b2c3c71"
 )
 
 hunter_cmake_args(
