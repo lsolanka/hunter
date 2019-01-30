@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     ros-ros_comm
     VERSION
-    1.12.2-p1
+    1.12.2-p2
     URL
-    "https://github.com/lsolanka/ros_comm/archive/1.12.2-p1.tar.gz"
+    "https://github.com/lsolanka/ros_comm/archive/v1.12.2-p2.tar.gz"
     SHA1
-    2e26b9f5fdac810eb59c97d69ebe989a9e0a384a
+    8a20a6e0f11b008d1fa9a5ad5ceee1c6182ecb45
 )
 
 hunter_cmake_args(ros-ros_comm
