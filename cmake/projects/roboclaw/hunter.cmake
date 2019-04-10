@@ -41,6 +41,17 @@ hunter_add_version(
     "7eaa324927cc8f789ba25f7aa87b82575c194696"
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    roboclaw
+    VERSION
+    0.1.3
+    URL
+    "https://github.com/lsolanka/roboclaw/archive/v0.1.3.tar.gz"
+    SHA1
+    "8a6c1c6e671c3443662a51360dd89e9ac477ad7a"
+)
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(roboclaw)
 hunter_download(PACKAGE_NAME roboclaw)
