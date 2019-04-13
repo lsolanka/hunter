@@ -6,45 +6,50 @@ cmake_minimum_required(VERSION 3.0)
 # Emulate HunterGate:
 # * https://github.com/hunter-packages/gate
 # This example can only be built with the following option: TESTING_CONFIG_OPT=LOCAL
+set(TESTING_CONFIG_OPT "LOCAL")
 include("../common.cmake")
 
 project(download-MRPT)
 
 # DOCUMENTATION_START {
 hunter_add_package(MRPT)
-find_package(MRPT CONFIG REQUIRED)
+find_package(MRPT CONFIG REQUIRED
+             COMPONENTS bayes comms config containers core db detectors expr graphs
+                        graphslam gui hmtslam hwdrivers img io kinematics maps math nav
+                        obs opengl poses random rtti serialization slam system tfest
+                        topography vision)
 
 add_executable(boo boo.cpp)
 target_link_libraries(boo PUBLIC
-    mrpt-bayes
-    mrpt-comms
-    mrpt-config
-    mrpt-containers
-    mrpt-core
-    mrpt-db
-    mrpt-detectors
-    mrpt-expr
-    mrpt-graphs
-    mrpt-graphslam
-    mrpt-gui
-    mrpt-hmtslam
-    mrpt-hwdrivers
-    mrpt-img
-    mrpt-io
-    mrpt-kinematics
-    mrpt-maps
-    mrpt-math
-    mrpt-nav
-    mrpt-obs
-    mrpt-opengl
-    mrpt-poses
-    mrpt-random
-    mrpt-rtti
-    mrpt-serialization
-    mrpt-slam
-    mrpt-system
-    mrpt-tfest
-    mrpt-topography
-    mrpt-vision
+    mrpt::bayes
+    mrpt::comms
+    mrpt::config
+    mrpt::containers
+    mrpt::core
+    mrpt::db
+    mrpt::detectors
+    mrpt::expr
+    mrpt::graphs
+    mrpt::graphslam
+    mrpt::gui
+    mrpt::hmtslam
+    mrpt::hwdrivers
+    mrpt::img
+    mrpt::io
+    mrpt::kinematics
+    mrpt::maps
+    mrpt::math
+    mrpt::nav
+    mrpt::obs
+    mrpt::opengl
+    mrpt::poses
+    mrpt::random
+    mrpt::rtti
+    mrpt::serialization
+    mrpt::slam
+    mrpt::system
+    mrpt::tfest
+    mrpt::topography
+    mrpt::vision
 )
 # DOCUMENTATION_END }

@@ -13,6 +13,17 @@ hunter_add_version(
     PACKAGE_NAME
     MRPT
     VERSION
+    hunter-master-5
+    URL
+    "https://github.com/lsolanka/mrpt/archive/hunter-master-5.tar.gz"
+    SHA1
+    "dc9c0084c0de1fbf8f047354163787365ff9e322"
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    MRPT
+    VERSION
     hunter-master-3
     URL
     "https://github.com/lsolanka/mrpt/archive/hunter-master-3.tar.gz"
